@@ -1,7 +1,9 @@
-package com.example.spsnyder.studentdb.Data;
+package com.instinctcoder.sqlitedbmultitbl.data;
+
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
 
 public class DatabaseManager {
     private Integer mOpenCounter = 0;

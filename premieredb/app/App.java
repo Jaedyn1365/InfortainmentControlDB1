@@ -1,13 +1,14 @@
-package com.example.spsnyder.studentdb.app;
+package com.instinctcoder.sqlitedbmultitbl.app;
 
+        import android.app.Application;
+        import android.content.Context;
 
-import android.app.Application;
-import android.content.Context;
+        import com.instinctcoder.sqlitedbmultitbl.data.DBHelper;
+        import com.instinctcoder.sqlitedbmultitbl.data.DatabaseManager;
 
-import com.example.spsnyder.studentdb.Data.DBHelper;
-import com.example.spsnyder.studentdb.Data.DatabaseManager;
-
-
+/**
+ * Created by Tan on 1/26/2016.
+ */
 public class  App extends Application {
     private static Context context;
     private static DBHelper dbHelper;
